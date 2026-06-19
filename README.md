@@ -4,11 +4,11 @@
 
 ### Full-Stack Developer • AI Intern • Open to Opportunities
 
-*3rd Year B.Tech CSE @ VIT-AP University | CGPA: 9.53 | Building things that matter*
+*3rd Year B.Tech CSE @ VIT-AP University | CGPA: 9.56 | Building things that matter*
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)]([https://your-portfolio-link.com](https://prakash453345.github.io/Portfolio/))
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)]([https://linkedin.com/in/your-linkedin](https://www.linkedin.com/in/prakash-badugula-78ba90315/))
-[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)]([https://leetcode.com/your-leetcode](https://leetcode.com/u/Prakash_Badugula/))
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://prakash453345.github.io/Portfolio/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prakash-badugula-78ba90315/)
+[![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Prakash_Badugula/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prakashraj.badugula@gmail.com)
 
 </div>
@@ -17,12 +17,12 @@
 
 ## 🧠 About Me
 
-I'm a third-year B.Tech CSE student at **VIT-AP University** (CGPA: 9.53), specialising in full-stack web development and AI/ML systems.
+I'm a third-year B.Tech CSE student at **VIT-AP University** (CGPA: 9.56), specialising in full-stack web development and AI/ML systems.
 
 - 🔍 Built **ScamScope** — a RAG-based scam detection engine with explainable risk scoring (IEEE paper in progress)
 - 📱 Built **CareMyMed** — a production healthcare admin mobile app (React Native → Play Store)
 - 💼 **AI Intern @ Ecnodev IT Solutions** — Resume Parsing & Job Recommendation System (Flask + LangChain + ChromaDB)
-- 🧩 Solved **199+ LeetCode problems** — consistently practising DSA
+- 🧩 Solved **250+ LeetCode problems** — consistently practising DSA
 - 💡 Exploring: LangChain, RAG pipelines, ChromaDB, HuggingFace Embeddings, Gemini API
 
 ---
