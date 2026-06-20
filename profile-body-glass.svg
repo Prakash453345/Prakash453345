@@ -1,0 +1,409 @@
+<svg fill="none" viewBox="0 0 1000 1200" width="1000" height="1200" xmlns="http://www.w3.org/2000/svg">
+  
+  <defs>
+    <!-- True Frosted Glass Noise Filter -->
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.65" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.1 0" />
+    </filter>
+    
+    <!-- Neon Tracing Gradients -->
+    <linearGradient id="glowGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#3a7bd5"/>
+      <stop offset="100%" stop-color="#8a2be2"/>
+    </linearGradient>
+  </defs>
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+
+        .wrapper {
+          width: 100%; height: 100%;
+          background: #030407; /* Extremely deep space black */
+          position: relative;
+          overflow: hidden;
+          font-family: -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+          color: #c9d1d9;
+          padding: 40px;
+          /* 3D perspective applied to the entire viewport */
+          perspective: 2000px; 
+        }
+
+        /* --- CSS PARTICLES (STARFIELD) --- */
+        .stars {
+          position: absolute;
+          top: 0; left: 0; right: 0; bottom: 0;
+          z-index: 0;
+          overflow: hidden;
+        }
+
+        .stars::after {
+          content: '';
+          position: absolute;
+          width: 2px; height: 2px;
+          background: transparent;
+          box-shadow: 
+            50px 50px #fff, 150px 80px rgba(0, 210, 255, 0.8), 250px 150px #fff, 350px 40px rgba(138, 43, 226, 0.8),
+            450px 200px #fff, 550px 100px rgba(0, 210, 255, 0.8), 650px 250px #fff, 750px 60px rgba(0, 255, 170, 0.8),
+            850px 120px #fff, 950px 300px rgba(138, 43, 226, 0.5), 100px 350px #fff, 300px 400px rgba(0, 210, 255, 0.8),
+            500px 450px #fff, 700px 380px rgba(0, 255, 170, 0.5), 900px 500px #fff, 200px 550px rgba(138, 43, 226, 0.8),
+            400px 600px #fff, 600px 650px rgba(0, 210, 255, 0.8), 800px 700px #fff, 150px 750px rgba(0, 255, 170, 0.8),
+            350px 800px #fff, 550px 850px rgba(138, 43, 226, 0.5), 750px 900px #fff, 950px 950px rgba(0, 210, 255, 0.8),
+            250px 1000px #fff, 450px 1050px rgba(0, 255, 170, 0.5), 650px 1100px #fff, 850px 1150px rgba(138, 43, 226, 0.8);
+          animation: starDrift 60s linear infinite;
+        }
+
+        .stars::before {
+          content: '';
+          position: absolute;
+          width: 3px; height: 3px;
+          background: transparent;
+          box-shadow: 
+            100px 150px #fff, 300px 80px rgba(0, 210, 255, 1), 500px 250px #fff, 700px 140px rgba(138, 43, 226, 1),
+            900px 300px #fff, 200px 400px rgba(0, 210, 255, 1), 400px 550px #fff, 600px 460px rgba(0, 255, 170, 1),
+            800px 650px #fff, 150px 800px rgba(138, 43, 226, 1), 350px 950px #fff, 550px 1000px rgba(0, 210, 255, 1);
+          animation: starDrift 40s linear infinite reverse;
+        }
+
+        @keyframes starDrift {
+          0% { transform: translateY(0) translateX(0); }
+          100% { transform: translateY(-500px) translateX(200px); }
+        }
+
+        /* --- AMBIENT NEON ORBS --- */
+        .glow-orb {
+          position: absolute;
+          border-radius: 50%;
+          filter: blur(120px);
+          z-index: 1;
+          animation: drift 20s infinite alternate ease-in-out;
+        }
+
+        .orb-blue { width: 500px; height: 500px; background: rgba(0, 210, 255, 0.12); top: 5%; left: -5%; }
+        .orb-purple { width: 600px; height: 600px; background: rgba(138, 43, 226, 0.1); bottom: 5%; right: -5%; animation-delay: -10s; }
+        .orb-teal { width: 400px; height: 400px; background: rgba(0, 255, 170, 0.08); top: 50%; left: 30%; animation-duration: 25s; }
+
+        @keyframes drift {
+          0% { transform: translate(0, 0) scale(1); }
+          50% { transform: translate(150px, 100px) scale(1.1); }
+          100% { transform: translate(-50px, 200px) scale(0.9); }
+        }
+
+        /* --- 3D LAYOUT & BREATHING CARDS --- */
+        .container {
+          position: relative;
+          z-index: 10;
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 35px;
+          width: 100%; height: 100%;
+          /* Applies the 3D breathing animation to the entire container grid */
+          transform-style: preserve-3d;
+          animation: breathe3D 15s ease-in-out infinite alternate;
+        }
+
+        @keyframes breathe3D {
+          0% { transform: rotateX(1deg) rotateY(-1deg) translateZ(0px); }
+          50% { transform: rotateX(-1deg) rotateY(1deg) translateZ(10px); }
+          100% { transform: rotateX(0deg) rotateY(0deg) translateZ(-5px); }
+        }
+
+        /* --- NEON TRACING BORDER WRAPPERS --- */
+        .neon-border-wrapper {
+          position: relative;
+          border-radius: 26px;
+          padding: 2px; /* Border thickness */
+          background: linear-gradient(60deg, rgba(0, 210, 255, 0.1), rgba(138, 43, 226, 0.5), rgba(0, 210, 255, 0.1));
+          background-size: 300% 300%;
+          animation: neonTrace 6s linear infinite;
+          box-shadow: 0 15px 35px rgba(0,0,0,0.5), 0 0 20px rgba(138, 43, 226, 0.2);
+          display: flex;
+        }
+
+        .panel-full { grid-column: 1 / -1; }
+
+        @keyframes neonTrace {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        /* --- THE GLASS PANEL (INNER) --- */
+        .glass-panel {
+          width: 100%;
+          background: rgba(10, 14, 20, 0.5); /* Deep translucent black */
+          backdrop-filter: blur(28px);
+          -webkit-backdrop-filter: blur(28px);
+          border-radius: 24px;
+          padding: 35px;
+          position: relative;
+          overflow: hidden;
+          display: flex;
+          flex-direction: column;
+        }
+
+        /* Noise Texture Overlay */
+        .noise-overlay {
+          position: absolute;
+          top: 0; left: 0; width: 100%; height: 100%;
+          background: transparent;
+          pointer-events: none;
+          z-index: -1;
+          opacity: 0.6;
+          filter: url('#noise');
+        }
+
+        /* --- TYPOGRAPHY --- */
+        .section-title {
+          font-size: 28px;
+          font-weight: 800;
+          margin-bottom: 25px;
+          color: #ffffff;
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          letter-spacing: -0.5px;
+          text-shadow: 0 0 20px rgba(0, 210, 255, 0.4);
+        }
+
+        .section-title span {
+          background: linear-gradient(135deg, #ffffff 0%, #a3b3c4 100%);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+        }
+
+        .text-body {
+          font-size: 16px; line-height: 1.8; color: #a3b3c4; margin-bottom: 20px;
+        }
+
+        .text-highlight { color: #ffffff; font-weight: 600; text-shadow: 0 0 10px rgba(255,255,255,0.2); }
+
+        ul { list-style: none; }
+        li {
+          position: relative; padding-left: 28px; margin-bottom: 14px;
+          font-size: 15px; color: #c9d1d9; line-height: 1.6;
+        }
+        li::before {
+          content: '✦'; position: absolute; left: 0; color: #00d2ff;
+          font-size: 16px; text-shadow: 0 0 10px #00d2ff;
+        }
+
+        /* --- HOLOGRAPHIC SKILL BADGES --- */
+        .badge-grid { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 25px; }
+        .badge-category {
+          font-size: 12px; font-weight: 800; text-transform: uppercase;
+          letter-spacing: 2px; color: #8b949e; margin-bottom: 15px;
+        }
+
+        .skill-badge {
+          background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.01) 100%);
+          border: 1px solid rgba(255, 255, 255, 0.15);
+          border-top: 1px solid rgba(255, 255, 255, 0.3);
+          padding: 8px 18px; border-radius: 12px;
+          font-size: 14px; font-weight: 600; color: #e6edf3;
+          box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+        }
+
+        .skill-badge.ai {
+          border-color: rgba(138, 43, 226, 0.4);
+          border-top-color: rgba(138, 43, 226, 0.8);
+          color: #d2a8ff;
+          box-shadow: 0 0 15px rgba(138, 43, 226, 0.15), inset 0 0 10px rgba(138, 43, 226, 0.1);
+          text-shadow: 0 0 8px rgba(138, 43, 226, 0.4);
+        }
+
+        .skill-badge.web {
+          border-color: rgba(0, 210, 255, 0.3);
+          border-top-color: rgba(0, 210, 255, 0.7);
+          color: #00d2ff;
+          box-shadow: 0 0 15px rgba(0, 210, 255, 0.1), inset 0 0 10px rgba(0, 210, 255, 0.1);
+        }
+
+        /* --- PROJECT CARDS --- */
+        .project-content {
+          display: flex; flex-direction: column; height: 100%;
+        }
+
+        .project-header {
+          display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 20px;
+        }
+
+        .folder-icon {
+          width: 48px; height: 48px;
+          stroke: url(#glowGradient);
+          filter: drop-shadow(0 0 8px rgba(0, 210, 255, 0.4));
+        }
+
+        .project-title {
+          font-size: 24px; font-weight: 800; color: #ffffff; margin-bottom: 12px;
+        }
+
+        .project-desc {
+          font-size: 15px; color: #a3b3c4; line-height: 1.7; flex-grow: 1;
+        }
+
+        .project-tech {
+          display: flex; flex-wrap: wrap; gap: 10px; margin-top: 25px;
+          font-family: "JetBrains Mono", monospace; font-size: 12px; font-weight: 600; color: #8b949e;
+        }
+
+        .project-tech span {
+          background: rgba(0,0,0,0.3); padding: 4px 10px; border-radius: 6px;
+          border: 1px solid rgba(255,255,255,0.05);
+        }
+
+      </style>
+      
+      <div class="wrapper">
+        <div class="stars"></div>
+        <div class="glow-orb orb-blue"></div>
+        <div class="glow-orb orb-purple"></div>
+        <div class="glow-orb orb-teal"></div>
+
+        <div class="container">
+          
+          <!-- ABOUT ME PANEL -->
+          <div class="neon-border-wrapper">
+            <div class="glass-panel">
+              <div class="noise-overlay"></div>
+              <h2 class="section-title">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#glowGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                <span>About Me</span>
+              </h2>
+              <p class="text-body">
+                I'm a third-year Computer Science student architecting end-to-end solutions that bridge <span class="text-highlight">Full-Stack Development</span> with <span class="text-highlight">Artificial Intelligence</span>. I don't just write code; I build robust, scalable systems that solve real-world problems.
+              </p>
+              <ul>
+                <li><span class="text-highlight">Experience:</span> AI Intern @ Ecnodev IT Solutions (Building RAG pipelines)</li>
+                <li><span class="text-highlight">Research:</span> Authoring an IEEE paper on ScamScope (Explainable AI risk scoring)</li>
+                <li><span class="text-highlight">Education:</span> B.Tech CSE @ VIT-AP University (CGPA: 9.56)</li>
+                <li><span class="text-highlight">Problem Solving:</span> Consistently grinding DSA (250+ LeetCode problems)</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- CORE SKILLS PANEL -->
+          <div class="neon-border-wrapper">
+            <div class="glass-panel">
+              <div class="noise-overlay"></div>
+              <h2 class="section-title">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#glowGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+                <span>Engineering Arsenal</span>
+              </h2>
+              
+              <div class="badge-category">AI & Machine Learning</div>
+              <div class="badge-grid">
+                <div class="skill-badge ai">LangChain</div>
+                <div class="skill-badge ai">ChromaDB</div>
+                <div class="skill-badge ai">HuggingFace</div>
+                <div class="skill-badge ai">Gemini API</div>
+                <div class="skill-badge ai">RAG Pipelines</div>
+              </div>
+
+              <div class="badge-category">Full-Stack Architecture</div>
+              <div class="badge-grid">
+                <div class="skill-badge web">React Native</div>
+                <div class="skill-badge web">React.js</div>
+                <div class="skill-badge web">Node.js</div>
+                <div class="skill-badge web">Express</div>
+                <div class="skill-badge">Flask</div>
+                <div class="skill-badge web">MongoDB</div>
+              </div>
+
+              <div class="badge-category">Languages & Core Tools</div>
+              <div class="badge-grid">
+                <div class="skill-badge">Java</div>
+                <div class="skill-badge">Python</div>
+                <div class="skill-badge">JavaScript</div>
+                <div class="skill-badge">Git / GitHub</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- FEATURED PROJECTS HEADER -->
+          <div class="neon-border-wrapper panel-full" style="margin-top: 15px;">
+            <div class="glass-panel" style="padding: 20px 35px;">
+              <div class="noise-overlay"></div>
+              <h2 class="section-title" style="margin: 0; justify-content: center;">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="url(#glowGradient)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                <span>Featured Architecture</span>
+              </h2>
+            </div>
+          </div>
+
+          <!-- PROJECT 1 -->
+          <div class="neon-border-wrapper">
+            <div class="glass-panel" style="padding: 30px;">
+              <div class="noise-overlay"></div>
+              <div class="project-content">
+                <div class="project-header">
+                  <svg class="folder-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <h3 class="project-title">ScamScope</h3>
+                <p class="project-desc">RAG-driven detection engine providing explainable risk scores and real-time behavioral message analysis. Subject of an upcoming IEEE research publication.</p>
+                <div class="project-tech">
+                  <span>LangChain</span><span>ChromaDB</span><span>Gemini API</span><span>Streamlit</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2 -->
+          <div class="neon-border-wrapper">
+            <div class="glass-panel" style="padding: 30px;">
+              <div class="noise-overlay"></div>
+              <div class="project-content">
+                <div class="project-header">
+                  <svg class="folder-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <h3 class="project-title">CareMyMed</h3>
+                <p class="project-desc">Production-level healthcare administration mobile application featuring automated shift synchronization, push notifications, and prescription OCR extraction.</p>
+                <div class="project-tech">
+                  <span>React Native</span><span>Node.js</span><span>MongoDB</span><span>Expo</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3 -->
+          <div class="neon-border-wrapper">
+            <div class="glass-panel" style="padding: 30px;">
+              <div class="noise-overlay"></div>
+              <div class="project-content">
+                <div class="project-header">
+                  <svg class="folder-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <h3 class="project-title">Resume Parser Engine</h3>
+                <p class="project-desc">Semantic job matching system built during Ecnodev internship. Utilizes vector similarity search over parsed PDF/DOCX resumes for highly accurate recommendations.</p>
+                <div class="project-tech">
+                  <span>Flask</span><span>HuggingFace</span><span>ChromaDB</span><span>Pandas</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4 -->
+          <div class="neon-border-wrapper">
+            <div class="glass-panel" style="padding: 30px;">
+              <div class="noise-overlay"></div>
+              <div class="project-content">
+                <div class="project-header">
+                  <svg class="folder-icon" xmlns="http://www.w3.org/2000/svg" role="img" viewBox="0 0 24 24" fill="none" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                </div>
+                <h3 class="project-title">Dynamic Weather Monitor</h3>
+                <p class="project-desc">Real-time weather tracking application leveraging Geolocation APIs. Features a reactive UI that dynamically morphs backgrounds based on current atmospheric conditions.</p>
+                <div class="project-tech">
+                  <span>JavaScript</span><span>OpenWeatherMap</span><span>HTML5</span><span>CSS3</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
