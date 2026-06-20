@@ -88,7 +88,7 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
     </td>
     <td width="50%" valign="top">
       <h3 align="center">📱 CareMyMed</h3>
-      <p align="center">Healthcare app with push notifications & OCR. <i>(Play Store launch in progress)</i></p>
+      <p align="center">Healthcare app with push notifications & RBAC. <i>(Play Store launch in progress)</i></p>
       <p align="center">
         <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
         <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
