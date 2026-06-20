@@ -75,12 +75,47 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 
 
-| Project | Description | Tech Stack |
-|---------|-------------|------------|
-| 🔍 **ScamScope** | RAG-driven scam detection with explainable AI risk scoring. IEEE paper in progress. | `LangChain` `ChromaDB` `Gemini API` `Streamlit` |
-| 📱 **CareMyMed** | Healthcare app with push notifications & OCR. *(Google Play Store launch in progress)* | `React Native` `Node.js` `MongoDB` `Expo` |
-| 🤖 **Resume Parser** | Semantic job matching via embeddings & vector similarity search | `Flask` `HuggingFace` `ChromaDB` `Pandas` |
-| 🌦️ **Weather Monitor** | Real-time geolocation-based weather app with dynamic UI | `JavaScript` `OpenWeatherMap API` `CSS3` |
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🔍 ScamScope</h3>
+      <p align="center">RAG-driven scam detection with explainable AI risk scoring. <i>IEEE paper in progress.</i></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" />
+        <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white" />
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">📱 CareMyMed</h3>
+      <p align="center">Healthcare app with push notifications & OCR. <i>(Play Store launch in progress)</i></p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" />
+        <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=flat-square&logo=mongodb&logoColor=white" />
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3 align="center">🤖 Resume Parser</h3>
+      <p align="center">Semantic job matching via embeddings & vector similarity search</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" />
+        <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black" />
+        <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3 align="center">🌦️ Weather Monitor</h3>
+      <p align="center">Real-time geolocation-based weather app with dynamic UI</p>
+      <p align="center">
+        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+        <img src="https://img.shields.io/badge/OpenWeather-EB6E4B?style=flat-square" />
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -103,10 +138,36 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 <div align="center">
 
-| 🎓 | 💼 | 📄 | 🧩 | 📦 | 🏅 |
-|:--:|:--:|:--:|:--:|:--:|:--:|
-| **CGPA 9.56** | **AI Intern** | **IEEE Paper** | **250+ LC** | **8+ Projects** | **7 Certs** |
-| VIT-AP University | Ecnodev IT | ScamScope | DSA & Algo | AI/ML + Web | Industry |
+<table width="100%">
+  <tr>
+    <td align="center" width="33%">
+      <h2>🎓</h2>
+      <b>CGPA 9.56</b><br/><i>VIT-AP University</i>
+    </td>
+    <td align="center" width="33%">
+      <h2>💼</h2>
+      <b>AI Intern</b><br/><i>Ecnodev IT Solutions</i>
+    </td>
+    <td align="center" width="33%">
+      <h2>📄</h2>
+      <b>IEEE Paper</b><br/><i>ScamScope</i>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="33%">
+      <h2>🧩</h2>
+      <b>250+ LC</b><br/><i>DSA & Algorithms</i>
+    </td>
+    <td align="center" width="33%">
+      <h2>📦</h2>
+      <b>8+ Projects</b><br/><i>AI/ML + Full-Stack</i>
+    </td>
+    <td align="center" width="33%">
+      <h2>🏅</h2>
+      <b>7 Certs</b><br/><i>Industry Validated</i>
+    </td>
+  </tr>
+</table>
 
 </div>
 
