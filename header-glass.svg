@@ -1,0 +1,200 @@
+<svg fill="none" viewBox="0 0 800 300" width="800" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- NOISE FILTER DEFINITION -->
+  <defs>
+    <filter id="noise">
+      <feTurbulence type="fractalNoise" baseFrequency="0.7" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="matrix" values="1 0 0 0 0, 0 1 0 0 0, 0 0 1 0 0, 0 0 0 0.15 0" />
+    </filter>
+    <linearGradient id="neonGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00d2ff"/>
+      <stop offset="50%" stop-color="#3a7bd5"/>
+      <stop offset="100%" stop-color="#8a2be2"/>
+    </linearGradient>
+  </defs>
+
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .container {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: linear-gradient(-45deg, #0d1117, #06090e, #161b22, #0d1117);
+          background-size: 400% 400%;
+          animation: gradientBG 20s ease infinite;
+          border-radius: 15px;
+          overflow: hidden;
+          position: relative;
+          font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+        }
+
+        /* --- CSS PARTICLES --- */
+        .particles {
+          position: absolute;
+          top: 0; left: 0; width: 100%; height: 100%;
+          overflow: hidden;
+          z-index: 0;
+        }
+
+        .particles::after {
+          content: '';
+          position: absolute;
+          width: 2px;
+          height: 2px;
+          background: transparent;
+          /* Generating a starfield using box-shadow */
+          box-shadow: 
+            50px 50px #fff, 150px 80px rgba(0, 210, 255, 0.8), 250px 150px #fff, 350px 40px rgba(138, 43, 226, 0.8),
+            450px 200px #fff, 550px 100px rgba(0, 210, 255, 0.8), 650px 250px #fff, 750px 60px rgba(0, 255, 170, 0.8),
+            100px 250px rgba(0, 210, 255, 0.5), 200px 280px #fff, 300px 220px rgba(138, 43, 226, 0.5), 400px 270px #fff,
+            500px 290px rgba(0, 210, 255, 0.5), 600px 230px #fff, 700px 280px rgba(138, 43, 226, 0.5);
+          animation: particleDrift 30s linear infinite;
+        }
+
+        @keyframes particleDrift {
+          0% { transform: translateY(0) translateX(0); }
+          50% { transform: translateY(-20px) translateX(10px); }
+          100% { transform: translateY(0) translateX(0); }
+        }
+
+        /* Ambient glowing orbs */
+        .orb-1, .orb-2 {
+          position: absolute;
+          border-radius: 50%;
+          filter: blur(80px);
+          z-index: 1;
+          animation: float 8s ease-in-out infinite alternate;
+        }
+        
+        .orb-1 {
+          width: 350px; height: 350px;
+          background: rgba(0, 210, 255, 0.25);
+          top: -100px; left: -100px;
+        }
+
+        .orb-2 {
+          width: 300px; height: 300px;
+          background: rgba(138, 43, 226, 0.2);
+          bottom: -50px; right: -50px;
+          animation-delay: -4s;
+        }
+
+        /* THE ULTRA GLASS CARD */
+        .glass-wrapper {
+          width: 85%;
+          height: 70%;
+          position: relative;
+          z-index: 2;
+          border-radius: 20px;
+          /* Animated border wrapper */
+          background: linear-gradient(60deg, #00d2ff, #8a2be2, #00d2ff, #8a2be2);
+          background-size: 300% 300%;
+          animation: gradientBG 8s linear infinite;
+          padding: 1px; /* This padding becomes the border width */
+          box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.8), 0 0 30px rgba(0, 210, 255, 0.3);
+        }
+
+        .glass-card {
+          width: 100%;
+          height: 100%;
+          background: rgba(13, 17, 23, 0.6);
+          backdrop-filter: blur(24px);
+          -webkit-backdrop-filter: blur(24px);
+          border-radius: 19px;
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          padding: 20px;
+          text-align: center;
+          overflow: hidden;
+        }
+
+        /* Noise Texture Overlay */
+        .noise-overlay {
+          position: absolute;
+          top: 0; left: 0; width: 100%; height: 100%;
+          background: transparent;
+          pointer-events: none;
+          z-index: -1;
+          opacity: 0.8;
+          /* The magic SVG filter is applied here */
+          filter: url('#noise');
+        }
+
+        .title {
+          font-size: 52px;
+          font-weight: 800;
+          margin: 0;
+          background: linear-gradient(90deg, #ffffff, #e6edf3, #00d2ff);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          letter-spacing: -1.5px;
+          text-shadow: 0 0 40px rgba(0, 210, 255, 0.3);
+        }
+
+        .subtitle {
+          font-size: 20px;
+          font-weight: 500;
+          color: #c9d1d9;
+          margin-top: 15px;
+          letter-spacing: 1px;
+          text-transform: uppercase;
+        }
+
+        .badges {
+          margin-top: 25px;
+          display: flex;
+          gap: 15px;
+        }
+
+        .badge {
+          background: rgba(0, 0, 0, 0.4);
+          border: 1px solid rgba(0, 210, 255, 0.4);
+          padding: 8px 18px;
+          border-radius: 30px;
+          font-size: 14px;
+          font-weight: 600;
+          color: #00d2ff;
+          box-shadow: inset 0 0 15px rgba(0, 210, 255, 0.1), 0 0 10px rgba(0, 210, 255, 0.2);
+          text-shadow: 0 0 8px rgba(0, 210, 255, 0.5);
+          letter-spacing: 0.5px;
+        }
+
+        @keyframes gradientBG {
+          0% { background-position: 0% 50%; }
+          50% { background-position: 100% 50%; }
+          100% { background-position: 0% 50%; }
+        }
+
+        @keyframes float {
+          0% { transform: translateY(0px) scale(1); }
+          100% { transform: translateY(30px) scale(1.1); }
+        }
+      </style>
+      
+      <div class="container">
+        <div class="particles"></div>
+        <div class="orb-1"></div>
+        <div class="orb-2"></div>
+
+        <div class="glass-wrapper">
+          <div class="glass-card">
+            <div class="noise-overlay"></div>
+            <h1 class="title">Prakash Badugula</h1>
+            <div class="subtitle">Full-Stack Architect • AI Engineer</div>
+            <div class="badges">
+              <div class="badge">Next-Gen Web</div>
+              <div class="badge">RAG Systems</div>
+              <div class="badge">CGPA 9.56</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
