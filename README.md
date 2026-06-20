@@ -1,8 +1,12 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=1&height=300&section=header&text=Prakash%20Badugula&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Full-Stack%20%E2%80%A2%20AI%2FML&descSize=20&descColor=ffffff&descAlignY=58" />
-
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Building+intelligent+systems+that+solve+real+problems+%F0%9F%9A%80)](https://git.io/typing-svg)
+<a href="https://git.io/typing-svg">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=45&duration=4000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&repeat=true&width=800&height=100&lines=Hi,+I'm+Prakash+Badugula+%F0%9F%91%8B;Full-Stack+Architecture+%E2%9A%99%EF%B8%8F;AI+%26+Machine+Learning+%F0%9F%A4%96;Building+systems+that+matter+%F0%9F%9A%80" alt="Typing SVG" />
+</a>
+
+<p align="center" style="font-size: 18px; color: #8b949e; margin-top: -20px;">
+  <b>Full-Stack Developer • AI Engineer • CS @ VIT-AP (9.56 CGPA)</b>
+</p>
 
 <br/>
 
@@ -144,6 +148,4 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 </div>
 
-<br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=1&height=120&section=footer" />
