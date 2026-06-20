@@ -1,19 +1,19 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=timeGradient&height=300&section=header&text=Prakash%20Badugula&fontSize=60&fontColor=ffffff&animation=fadeIn&fontAlignY=40&desc=Full-Stack%20Developer%20%E2%80%A2%20AI/ML%20Engineer&descSize=22&descColor=ffffff&descAlignY=62" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=1&height=300&section=header&text=Prakash%20Badugula&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=Full-Stack%20%E2%80%A2%20AI%2FML&descSize=20&descColor=ffffff&descAlignY=58" />
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=A177FE&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Building+intelligent+systems+that+solve+real+problems+%F0%9F%9A%80)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=38BDF8&center=true&vCenter=true&multiline=false&repeat=true&width=700&height=45&lines=Building+intelligent+systems+that+solve+real+problems+%F0%9F%9A%80)](https://git.io/typing-svg)
 
 <br/>
 
-<a href="https://prakash453345.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-A177FE?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>&nbsp;
+<a href="https://prakash453345.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>&nbsp;
 <a href="https://www.linkedin.com/in/prakash-badugula-78ba90315/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
 <a href="https://leetcode.com/u/Prakash_Badugula/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>&nbsp;
 <a href="mailto:prakashraj.badugula@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=Prakash453345&color=A177FE&style=flat-square&label=Profile+Views" alt="Profile Views" />
+<img src="https://komarev.com/ghpvc/?username=Prakash453345&color=38BDF8&style=flat-square&label=Profile+Views" alt="Profile Views" />
 
 </div>
 
@@ -21,7 +21,7 @@
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30">&nbsp; About Me
 
-<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prakash453345&layout=donut-vertical&theme=radical&hide_border=true&bg_color=0D1117&title_color=A177FE&text_color=ffffff&langs_count=6" width="230" />
+<img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prakash453345&layout=donut-vertical&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&text_color=ffffff&langs_count=6" width="230" />
 
 I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA**, passionate about building scalable full-stack applications and intelligent AI systems.
 
@@ -71,8 +71,8 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 <div align="center">
 
-<a href="https://github.com/Prakash453345/echoheir"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=echoheir&theme=radical&hide_border=true&bg_color=0D1117&title_color=A177FE&icon_color=A177FE&text_color=c9d1d9" width="49%" /></a>&nbsp;
-<a href="https://github.com/Prakash453345/Trademarkia"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=Trademarkia&theme=radical&hide_border=true&bg_color=0D1117&title_color=A177FE&icon_color=A177FE&text_color=c9d1d9" width="49%" /></a>
+<a href="https://github.com/Prakash453345/echoheir"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=echoheir&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" width="49%" /></a>&nbsp;
+<a href="https://github.com/Prakash453345/Trademarkia"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=Trademarkia&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" width="49%" /></a>
 
 </div>
 
@@ -91,12 +91,12 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=Prakash453345&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A177FE&icon_color=A177FE&text_color=ffffff&ring_color=A177FE&include_all_commits=true&count_private=true" width="49%" />
-<img src="https://github-readme-streak-stats.herokuapp.com?user=Prakash453345&theme=radical&hide_border=true&background=0D1117&ring=A177FE&fire=A177FE&currStreakLabel=A177FE&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" width="49%" />
+<img src="https://github-readme-stats.vercel.app/api?username=Prakash453345&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=ffffff&ring_color=38BDF8&include_all_commits=true&count_private=true" width="49%" />
+<img src="https://github-readme-streak-stats.herokuapp.com?user=Prakash453345&theme=tokyonight&hide_border=true&background=0D1117&ring=38BDF8&fire=38BDF8&currStreakLabel=38BDF8&sideLabels=ffffff&currStreakNum=ffffff&sideNums=ffffff&dates=8b949e" width="49%" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prakash453345&bg_color=0D1117&color=A177FE&line=A177FE&point=ffffff&area=true&area_color=A177FE&hide_border=true&custom_title=Contribution%20Graph" width="98%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Prakash453345&bg_color=0D1117&color=38BDF8&line=8A2BE2&point=ffffff&area=true&area_color=8A2BE2&hide_border=true&custom_title=Contribution%20Graph" width="98%" />
 
 </div>
 
@@ -140,10 +140,10 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 <a href="https://www.linkedin.com/in/prakash-badugula-78ba90315/"><img src="https://img.shields.io/badge/Let's_Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>&nbsp;
 <a href="mailto:prakashraj.badugula@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>&nbsp;
-<a href="https://prakash453345.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-A177FE?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+<a href="https://prakash453345.github.io/Portfolio/"><img src="https://img.shields.io/badge/Portfolio-8A2BE2?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
 
 </div>
 
 <br/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=gradient&customColorList=1&height=120&section=footer" />
