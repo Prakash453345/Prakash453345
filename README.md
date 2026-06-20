@@ -31,7 +31,7 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 - 💼 &nbsp;**AI Intern** @ Ecnodev IT Solutions — Built RAG pipelines & resume parsers
 - 🔬 &nbsp;Authoring **IEEE research paper** on AI-powered scam detection
-- 📱 &nbsp;Shipped **CareMyMed** to the **Google Play Store**
+- 📱 &nbsp;Building **CareMyMed** for an upcoming **Google Play Store** launch
 - 🧩 &nbsp;**250+ LeetCode** problems solved
 - 🎯 &nbsp;Seeking **SDE / MERN / GenAI** roles
 
@@ -73,19 +73,12 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
 
 ## 🚀 &nbsp;Featured Projects
 
-<div align="center">
 
-<a href="https://github.com/Prakash453345/echoheir"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=echoheir&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" width="49%" /></a>&nbsp;
-<a href="https://github.com/Prakash453345/Trademarkia"><img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=Trademarkia&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=38BDF8&icon_color=38BDF8&text_color=c9d1d9" width="49%" /></a>
-
-</div>
-
-<br/>
 
 | Project | Description | Tech Stack |
 |---------|-------------|------------|
 | 🔍 **ScamScope** | RAG-driven scam detection with explainable AI risk scoring. IEEE paper in progress. | `LangChain` `ChromaDB` `Gemini API` `Streamlit` |
-| 📱 **CareMyMed** | Production healthcare app on Google Play Store with push notifications & OCR | `React Native` `Node.js` `MongoDB` `Expo` |
+| 📱 **CareMyMed** | Healthcare app with push notifications & OCR. *(Google Play Store launch in progress)* | `React Native` `Node.js` `MongoDB` `Expo` |
 | 🤖 **Resume Parser** | Semantic job matching via embeddings & vector similarity search | `Flask` `HuggingFace` `ChromaDB` `Pandas` |
 | 🌦️ **Weather Monitor** | Real-time geolocation-based weather app with dynamic UI | `JavaScript` `OpenWeatherMap API` `CSS3` |
 
