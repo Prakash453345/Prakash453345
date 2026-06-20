@@ -1,212 +1,289 @@
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=220&section=header&text=Prakash%20Badugula&fontSize=42&fontColor=58a6ff&animation=fadeIn&fontAlignY=35&desc=Full-Stack%20Developer%20%E2%80%A2%20AI%20Engineer%20%E2%80%A2%20Problem%20Solver&descSize=16&descColor=8b949e&descAlignY=55" />
+
 <div align="center">
 
-# Hey there, I'm Prakash 👋
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+intelligent+systems+that+matter+%F0%9F%9A%80;3rd+Year+B.Tech+CSE+%40+VIT-AP+%7C+CGPA%3A+9.56;250%2B+LeetCode+Problems+Solved+%F0%9F%92%AA" alt="Typing SVG" /></a>
 
-### Full-Stack Developer • AI Intern • Open to Opportunities
+<br/>
 
-*3rd Year B.Tech CSE @ VIT-AP University | CGPA: 9.56 | Building things that matter*
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://prakash453345.github.io/Portfolio/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white)](https://prakash453345.github.io/Portfolio/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/prakash-badugula-78ba90315/)
 [![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com/u/Prakash_Badugula/)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prakashraj.badugula@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:prakashraj.badugula@gmail.com)
+[![Resume](https://img.shields.io/badge/Resume-4285F4?style=for-the-badge&logo=googledocs&logoColor=white)](#)
 
 </div>
 
+<!-- ABOUT SECTION -->
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="28"> &nbsp;About Me
+
+```yaml
+Name:        Prakash Badugula
+Location:    India
+Education:   B.Tech CSE @ VIT-AP University (CGPA: 9.56 / 10.0)
+Role:        Full-Stack Developer | AI/ML Engineer
+Experience:  AI Intern @ Ecnodev IT Solutions (Jun – Sep 2025)
+Research:    IEEE Paper on ScamScope (RAG-based Scam Detection)
+```
+
+<img align="right" src="https://github.com/Prakash453345/Prakash453345/blob/main/coding.gif?raw=true" width="320" alt="coding gif" onerror="this.style.display='none'"/>
+
+- 🔬 &nbsp;Built **ScamScope** — RAG-driven scam detection with explainable risk scoring
+- 📱 &nbsp;Shipped **CareMyMed** — Healthcare admin app on **Google Play Store**
+- 🤖 &nbsp;Built **Resume Parser & Job Recommender** at Ecnodev using LangChain + ChromaDB
+- 🧩 &nbsp;**250+ LeetCode** problems solved — strong DSA foundations
+- 📄 &nbsp;**IEEE paper** in progress on AI-powered scam detection
+- 🎯 &nbsp;Open to **SDE**, **MERN Stack**, and **GenAI Engineer** roles
+
+<br clear="right"/>
+
 ---
 
-## 🧠 About Me
+<!-- TECH STACK -->
 
-I'm a third-year B.Tech CSE student at **VIT-AP University** (CGPA: 9.56), specialising in full-stack web development and AI/ML systems.
+## 🛠️ &nbsp;Tech Arsenal
 
-- 🔍 Built **ScamScope** — a RAG-based scam detection engine with explainable risk scoring (IEEE paper in progress)
-- 📱 Built **CareMyMed** — a production healthcare admin mobile app (React Native → Play Store)
-- 💼 **AI Intern @ Ecnodev IT Solutions** — Resume Parsing & Job Recommendation System (Flask + LangChain + ChromaDB)
-- 🧩 Solved **250+ LeetCode problems** — consistently practising DSA
-- 💡 Exploring: LangChain, RAG pipelines, ChromaDB, HuggingFace Embeddings, Gemini API
-
----
-
-## 🛠️ Tech Stack
+<div align="center">
 
 ### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=java,python,js,ts&theme=dark" alt="Languages" />
+</p>
 
-### Frontend
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![React Native](https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
+### Frontend & Mobile
+<p>
+  <img src="https://skillicons.dev/icons?i=react,html,css,nextjs&theme=dark" alt="Frontend" />
+</p>
 
 ### Backend & Databases
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat-square&logo=express&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![RESTful APIs](https://img.shields.io/badge/REST_APIs-FF6C37?style=flat-square&logo=postman&logoColor=white)
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,flask,mongodb,mysql&theme=dark" alt="Backend" />
+</p>
 
 ### AI / ML & GenAI
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white)
-![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square&logo=databricks&logoColor=white)
-![Gemini API](https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![pandas](https://img.shields.io/badge/pandas-150458?style=flat-square&logo=pandas&logoColor=white)
+<p>
+  <a href="#"><img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white" alt="LangChain"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=for-the-badge&logo=databricks&logoColor=white" alt="ChromaDB"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Gemini_API-4285F4?style=for-the-badge&logo=google&logoColor=white" alt="Gemini API"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" alt="HuggingFace"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="pandas"/></a>
+  <a href="#"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit"/></a>
+</p>
 
-### Tools
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
-
----
-
-## 🚀 Projects
-
-### 🤖 AI / ML
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🔍 ScamScope</h3>
-      <p><em>AI-Based Scam Risk Analyzer · Jan 2026</em></p>
-      <p>RAG-driven detection engine with explainable risk scores and real-time behavioral message analysis. Built with LangChain, ChromaDB, and Streamlit.</p>
-      <p>
-        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
-        <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square"/>
-      </p>
-      <a href="https://github.com/Prakash453345/scamscope">GitHub ↗</a> · <a href="#">Live Demo ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>📱 CareMyMed</h3>
-      <p><em>Healthcare Admin Mobile App · Production</em></p>
-      <p>Production-level healthcare admin mobile app with appointment scheduling, patient records, and real-time updates. Built with React Native and deployed via EAS Build.</p>
-      <p>
-        <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=react&logoColor=black"/>
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=expo&logoColor=white"/>
-      </p>
-      <a href="https://github.com/Prakash453345/caremymed">GitHub ↗</a>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🤖 Resume Parser & Job Recommender</h3>
-      <p><em>Internship Project @ Ecnodev · Jun–Sep 2025</em></p>
-      <p>Semantic job matching via PDF/DOCX parsing, HuggingFace embeddings, and ChromaDB vector similarity search. Built with Flask and LangChain.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Flask-000000?style=flat-square"/>
-        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square"/>
-        <img src="https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square"/>
-        <img src="https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square"/>
-      </p>
-      <a href="https://github.com/Prakash453345/resume-parser">GitHub ↗</a>
-    </td>
-    <td width="50%" valign="top"></td>
-  </tr>
-</table>
-
-### 🌐 Web Apps
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌦️ Weather by Location</h3>
-      <p>Real-time weather app using Geolocation API and OpenWeatherMap with dynamic backgrounds based on current conditions.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-        <img src="https://img.shields.io/badge/OpenWeatherMap_API-EB6E4B?style=flat-square"/>
-      </p>
-      <a href="https://github.com/Prakash453345/weather-app">GitHub ↗</a>
-    </td>
-    <td width="50%" valign="top">
-      <h3>😂 Meme Generator</h3>
-      <p>Dynamic meme and joke aggregator using Async JS, Reddit API, and interactive DOM manipulation.</p>
-      <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
-        <img src="https://img.shields.io/badge/Reddit_API-FF4500?style=flat-square&logo=reddit&logoColor=white"/>
-      </p>
-      <a href="https://github.com/Prakash453345/meme-generator">GitHub ↗</a>
-    </td>
-  </tr>
-</table>
-
-### 🎮 Games
-
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <h3>💣 Mine Dodger</h3>
-      <p>Retro-style arcade game with dynamic mine placement and progressively harder levels.</p>
-      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/></p>
-      <a href="https://github.com/Prakash453345/mine-dodger">GitHub ↗</a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>✂️ Rock Paper Scissors</h3>
-      <p>5-round browser game with computer opponent, scoring, and interactive results display.</p>
-      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/></p>
-      <a href="https://github.com/Prakash453345/rock-paper-scissors">GitHub ↗</a>
-    </td>
-    <td width="33%" valign="top">
-      <h3>🔢 Number Guessing</h3>
-      <p>5-attempt guessing game with real-time proximity feedback and dynamic styling.</p>
-      <p><img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/></p>
-      <a href="https://github.com/Prakash453345/number-guessing">GitHub ↗</a>
-    </td>
-  </tr>
-</table>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Prakash453345&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prakash453345&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"/>
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=Prakash453345&theme=tokyonight&hide_border=true)](https://git.io/streak-stats)
+### DevOps & Tools
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,vscode,postman,linux&theme=dark" alt="Tools" />
+</p>
 
 </div>
 
 ---
 
-## 🏆 Highlights
+<!-- FEATURED PROJECTS -->
 
-| | |
-|---|---|
-| 🎓 **CGPA** | 9.56 / 10.0 — VIT-AP University |
-| 💼 **Experience** | AI Intern @ Ecnodev IT Solutions (Jun–Sep 2025) |
-| 🧩 **LeetCode** | 250+ problems solved |
-| 📦 **Projects** | 8 projects built across AI/ML, Web, and Games |
-| 🏅 **Certifications** | 7 certifications earned |
-| 📄 **Research** | IEEE paper on ScamScope|
-
----
-
-## 🤝 Let's Connect
+## 🚀 &nbsp;Featured Projects
 
 <div align="center">
 
-Actively looking for **SDE**, **MERN Stack**, and **GenAI Engineer** internship / full-time roles.  
-If you're building something exciting — let's talk.
-
-[![LinkedIn](https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-linkedin)
-[![Email](https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:your-email@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Visit_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://your-portfolio-link.com)
-
-![Profile Views](https://komarev.com/ghpvc/?username=Prakash453345&color=6C47FF&style=flat-square)
+<!-- PROJECT 1: ScamScope -->
+<a href="https://github.com/Prakash453345/scamscope">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=scamscope&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" width="48%" />
+</a>
+&nbsp;
+<!-- PROJECT 2: CareMyMed -->
+<a href="https://github.com/Prakash453345/caremymed">
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=Prakash453345&repo=caremymed&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=8b949e" width="48%" />
+</a>
 
 </div>
+
+<br/>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🔍 ScamScope — AI Scam Risk Analyzer
+> RAG-driven detection engine with explainable risk scores and real-time behavioral message analysis
+
+**Stack:** `LangChain` `ChromaDB` `Gemini API` `Streamlit`
+
+🔹 Explainable AI risk scoring system<br/>
+🔹 RAG pipeline with vector similarity search<br/>
+🔹 Real-time behavioral message analysis<br/>
+🔹 IEEE publication in progress<br/>
+
+<a href="https://github.com/Prakash453345/scamscope"><img src="https://img.shields.io/badge/View_Code-58a6ff?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 📱 CareMyMed — Healthcare Admin App
+> Production-level mobile app for healthcare management, deployed to Google Play Store
+
+**Stack:** `React Native` `Node.js` `MongoDB` `Expo`
+
+🔹 Appointment scheduling & patient records<br/>
+🔹 Real-time push notifications<br/>
+🔹 Prescription OCR with AI extraction<br/>
+🔹 Production APK on Google Play Store<br/>
+
+<a href="https://github.com/Prakash453345/caremymed"><img src="https://img.shields.io/badge/View_Code-58a6ff?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🤖 Resume Parser & Job Recommender
+> Semantic job matching system built during internship at Ecnodev IT Solutions
+
+**Stack:** `Flask` `LangChain` `HuggingFace` `ChromaDB`
+
+🔹 PDF/DOCX resume parsing pipeline<br/>
+🔹 HuggingFace embedding generation<br/>
+🔹 ChromaDB vector similarity matching<br/>
+🔹 Built during AI internship<br/>
+
+<a href="https://github.com/Prakash453345/resume-parser"><img src="https://img.shields.io/badge/View_Code-58a6ff?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🌦️ Weather by Location
+> Real-time weather tracking with geolocation and dynamic condition-based UI
+
+**Stack:** `JavaScript` `OpenWeatherMap API` `HTML/CSS`
+
+🔹 Geolocation-based weather detection<br/>
+🔹 Dynamic backgrounds per condition<br/>
+🔹 Responsive design with smooth animations<br/>
+
+<a href="https://github.com/Prakash453345/weather-app"><img src="https://img.shields.io/badge/View_Code-58a6ff?style=for-the-badge&logo=github&logoColor=white" /></a>
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>🎮 &nbsp;More Projects — Games & Fun</b></summary>
+<br/>
+
+<table>
+<tr>
+<td width="33%" align="center">
+  <h4>💣 Mine Dodger</h4>
+  <p>Retro arcade game with dynamic mine placement and progressive difficulty</p>
+  <a href="https://github.com/Prakash453345/mine-dodger"><img src="https://img.shields.io/badge/View_Code-58a6ff?style=flat-square&logo=github&logoColor=white" /></a>
+</td>
+<td width="33%" align="center">
+  <h4>✂️ Rock Paper Scissors</h4>
+  <p>5-round browser game with scoring and interactive results</p>
+  <a href="https://github.com/Prakash453345/rock-paper-scissors"><img src="https://img.shields.io/badge/View_Code-58a6ff?style=flat-square&logo=github&logoColor=white" /></a>
+</td>
+<td width="33%" align="center">
+  <h4>😂 Meme Generator</h4>
+  <p>Dynamic meme aggregator using Reddit API and async JS</p>
+  <a href="https://github.com/Prakash453345/meme-generator"><img src="https://img.shields.io/badge/View_Code-58a6ff?style=flat-square&logo=github&logoColor=white" /></a>
+</td>
+</tr>
+</table>
+
+</details>
+
+---
+
+<!-- EXPERIENCE & ACHIEVEMENTS -->
+
+## 🏆 &nbsp;Experience & Achievements
+
+<div align="center">
+
+```
+╔══════════════════════════════════════════════════════════════════════╗
+║                                                                      ║
+║   🎓  CGPA: 9.56 / 10.0          VIT-AP University, B.Tech CSE      ║
+║                                                                      ║
+║   💼  AI Intern                   Ecnodev IT Solutions (Jun-Sep 2025)║
+║                                                                      ║
+║   📄  IEEE Research Paper         ScamScope: RAG-based Scam Detection║
+║                                                                      ║
+║   🧩  250+ Problems               LeetCode (DSA & Algorithms)       ║
+║                                                                      ║
+║   📦  8+ Projects Built           AI/ML, Full-Stack, Games           ║
+║                                                                      ║
+║   🏅  7 Certifications            Industry-recognized credentials    ║
+║                                                                      ║
+╚══════════════════════════════════════════════════════════════════════╝
+```
+
+</div>
+
+---
+
+<!-- GITHUB STATS -->
+
+## 📊 &nbsp;GitHub Analytics
+
+<div align="center">
+
+<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Prakash453345&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9&ring_color=58a6ff&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+&nbsp;
+<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prakash453345&layout=compact&langs_count=8&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" alt="Top Languages" />
+
+<br/><br/>
+
+<img width="70%" src="https://github-readme-streak-stats.herokuapp.com?user=Prakash453345&theme=github-dark-blue&hide_border=true&background=0D1117&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF&sideLabels=C9D1D9&currStreakNum=C9D1D9&sideNums=C9D1D9&dates=8B949E" alt="GitHub Streak" />
+
+<br/><br/>
+
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Prakash453345&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9&area=true&area_color=58a6ff&hide_border=true&custom_title=Contribution%20Timeline" alt="Activity Graph" />
+
+</div>
+
+---
+
+<!-- CONTRIBUTION SNAKE -->
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Prakash453345/Prakash453345/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Prakash453345/Prakash453345/output/github-snake.svg" />
+  <img alt="Snake animation" src="https://raw.githubusercontent.com/Prakash453345/Prakash453345/output/github-snake-dark.svg" />
+</picture>
+
+</div>
+
+---
+
+<!-- CONNECT -->
+
+## 🤝 &nbsp;Let's Build Something Together
+
+<div align="center">
+
+<p>
+  <em>Actively seeking <strong>SDE</strong>, <strong>MERN Stack</strong>, and <strong>GenAI Engineer</strong> opportunities.</em><br/>
+  <em>If you're building something exciting — let's connect.</em>
+</p>
+
+<br/>
+
+<a href="https://www.linkedin.com/in/prakash-badugula-78ba90315/"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+&nbsp;
+<a href="mailto:prakashraj.badugula@gmail.com"><img src="https://img.shields.io/badge/Send_an_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+&nbsp;
+<a href="https://prakash453345.github.io/Portfolio/"><img src="https://img.shields.io/badge/Visit_Portfolio-58a6ff?style=for-the-badge&logo=googlechrome&logoColor=white" /></a>
+
+<br/><br/>
+
+<img src="https://komarev.com/ghpvc/?username=Prakash453345&color=58a6ff&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+
+</div>
+
+<br/>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:161b22,100:1a1b27&height=120&section=footer" />
