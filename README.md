@@ -164,7 +164,7 @@ I'm a **third-year B.Tech CSE student** at VIT-AP University with a **9.56 CGPA*
     </td>
     <td align="center" width="33%">
       <h2>🏅</h2>
-      <b>7 Certs</b><br/><i>Industry Validated</i>
+      <b>7 Certs</b><br/><i>Gen AI + Web development</i>
     </td>
   </tr>
 </table>
